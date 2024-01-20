@@ -4,7 +4,7 @@ const port = process.env.PORT || 3000;
 
 app.get("/version", (req, res) => {
  res.send({
-    version:"1.0.72"
+    version:"1.0.73"
  })
 });
 
